@@ -1,0 +1,11 @@
+module Ruboty
+  module <%= config[:ruboty_plugin_constant_name] %>
+    module Actions
+      class <%= config[:constant_action] %> < Ruboty::Actions::Base
+        def call
+          message.reply("TODO: write a message.")
+        end
+      end
+    end
+  end
+end
