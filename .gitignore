@@ -3,6 +3,9 @@ reated by https://www.gitignore.io/api/ruby
 ### Dotenv ###
 .env
 
+### Vagrant ###
+/.vagrant/
+
 ### Ruby ###
 *.gem
 *.rbc
