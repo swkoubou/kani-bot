@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/shimomura1004/ruboty-balloon.git
+  revision: 988df2cab5e0120adb6afc35315da20fb94deab3
+  specs:
+    ruboty-balloon (0.0.1)
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -43,14 +50,9 @@ GEM
       activesupport
       chrono
       ruboty (>= 0.2.0)
-    ruboty-gen (1.2.0)
-      bundler (~> 1.7)
+    ruboty-echo_to (1.0.1)
       ruboty
     ruboty-google_image (0.1.0)
-      faraday
-      faraday_middleware
-      ruboty
-    ruboty-lgtm (0.0.3)
       faraday
       faraday_middleware
       ruboty
@@ -80,11 +82,14 @@ PLATFORMS
 
 DEPENDENCIES
   ruboty-alias
+  ruboty-balloon!
   ruboty-cron
-  ruboty-gen
+  ruboty-echo_to
   ruboty-google_image
-  ruboty-lgtm
   ruboty-redis
   ruboty-slack
   ruboty-sonar
   ruboty-talk
+
+BUNDLED WITH
+   1.11.2
