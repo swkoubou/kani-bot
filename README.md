@@ -11,7 +11,7 @@ vagrant up; vagrant ssh
 cd /vagrant
 # /vagrant/kani-bot/.env を作成する
 # .env に必要な環境変数を追記していく
-echo 'RUBOTY_ENV="development"' > /vagrant/.env
+echo 'RUBOTY_ENV="development"' > .env
 bundle exec ruboty --dotenv # ruboty の起動
 ```
 
@@ -22,7 +22,7 @@ cd <clone先ディレクトリ>
 RUBOTY_ENV=development . ./init.sh
 # <clone先ディレクトリ>/.env を作成する
 # .env に必要な環境変数を追記していく
-echo 'RUBOTY_ENV="development"' > <clone先ディレクトリ>/.env
+echo 'RUBOTY_ENV="development"' > .env
 bundle exec ruboty --dotenv # ruboty の起動
 ```
 
