@@ -15,7 +15,7 @@ echo 'RUBOTY_ENV="development"' > /vagrant/.env
 bundle exec ruboty --dotenv # ruboty の起動
 ```
 
-### 開発環境（Debian）
+### 開発環境（Debian >= Jessie）
 ```
 git clone https://github.com/swkoubou/kani-bot.git <clone先ディレクトリ>
 cd <clone先ディレクトリ>
