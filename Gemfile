@@ -5,7 +5,7 @@ group :development do
 end
 
 group :production do
-  gem "ruboty-slack"
+  gem "ruboty-slack_rtm"
   gem "ruboty-redis"
   gem "ruboty-talk"
 end
