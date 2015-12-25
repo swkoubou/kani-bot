@@ -55,6 +55,8 @@ GEM
       activesupport
       chrono
       ruboty (>= 0.2.0)
+    ruboty-echo (0.1.0)
+      ruboty
     ruboty-echo_to (1.0.1)
       ruboty
     ruboty-google_image (0.1.0)
@@ -98,6 +100,7 @@ DEPENDENCIES
   ruboty-alias
   ruboty-balloon!
   ruboty-cron
+  ruboty-echo
   ruboty-echo_to
   ruboty-google_image
   ruboty-redis
