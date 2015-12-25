@@ -2,10 +2,11 @@ source "https://rubygems.org"
 
 group :development do
   gem "ruboty-sonar"
+  gem "ruboty-gen"
 end
 
 group :production do
-  gem "ruboty-slack"
+  gem "ruboty-slack_rtm"
   gem "ruboty-redis"
   gem "ruboty-talk"
 end
