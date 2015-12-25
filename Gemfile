@@ -8,6 +8,7 @@ group :production do
   gem "ruboty-slack_rtm"
   gem "ruboty-redis"
   gem "ruboty-talk"
+  gem "ruboty-reinvite"
 end
 
 gem "ruboty-alias"

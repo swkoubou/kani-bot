@@ -67,6 +67,9 @@ GEM
       redis
       redis-namespace
       ruboty
+    ruboty-reinvite (0.1.0)
+      ruboty
+      slack-api
     ruboty-ruby (0.0.2)
       ruboty
     ruboty-slack_rtm (1.6.0)
@@ -106,6 +109,7 @@ DEPENDENCIES
   ruboty-echo_to
   ruboty-google_image
   ruboty-redis
+  ruboty-reinvite
   ruboty-ruby
   ruboty-slack_rtm
   ruboty-sonar
